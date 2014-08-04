@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*, *:after, *:before{box-sizing:border-box;}
+/*sets box model to maintain box width despite padding*/
+
+.wrapper {max-width:1000px;
+         margin: 0 auto;
+		 }
+		 
+h1, h2, h3, h4, h5, a {
+	font-family: "Adelle Sans", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:center;
+	}
+	
+h1 {
+	font-size:115px;
+	text-align:center;
+}
+
+h5 {
+	font-variant:small-caps;
+	line-height:1em;
+	font-size:16px;
+}
+
+#links {
+	font-size:30px;
+}
+
+a {
+	text-decoration:none;
+	font-size:20px;
+	color:black;
+}
+
+a:hover {
+	color:#1316B0;
+	}	
+
+#link-head {
+	color:black;
+}
+
+p {
+	font-size:16px;
+	max-width: 500px;
+	margin:0 auto;
+	margin-top:15px;
+	margin-bottom:15px;
+	line-height:1.5em;
+}
+
+footer {
+	text-align:center;
+	margin-top:150px;
+}
+
+p.small {
+	font-variant:small-caps;
+	font-family: "Adelle Sans", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav {
+	text-align:center;
+	padding-bottom:175px;
+}
+
+blockquote {
+	max-width:750px;
+	margin:0 auto;
+	line-height: 1.5em;
+	font-style:oblique;
+}
+
+section {
+	margin-top:100px;
+}
+
+dd {
+	line-height:1.25em;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+section h4 {
+	font-size:24px;
+}
+
+
+
+
+
+.clearfix{clear:both;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[class*="column"] {float:left;
+                   padding: 0 13px;
+                   min-height: 1px;}
+
+.column.5-12{width:4.16%}
+
+.column1-12{width:8.33%;}
+
+.column2-12{width:16.66%;}
+
+.column3-12{width:25%;}
+
+.column4-12{width:33.33%;}
+
+.column5-12{width:41.66%;}
+
+.column6-12{width:50%;}
+
+.column7-12{width:58.33%;}
+
+.column8-12{width:66.66%;}
+
+.column9-12{width:75%;}
+
+.column10-12{width:83.33%;}
+
+.column11-12{width:91.66%;}
+
+.column12-12{width:100%;}
+
+@media only screen and (max-width: 658px){
+  [class*="column"] {width:100%;}
+}
